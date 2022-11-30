@@ -1,0 +1,117 @@
+body{
+    background: rgb(255, 255, 255);
+}
+.main{
+    margin-top: 50px;
+    
+   
+    
+
+}
+body{
+    background-image: linear-gradient(white,#B621FE);
+}
+.search-box{
+    
+    
+    
+    display: block;
+    width: 390px;
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:ridge;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.googlelogo{
+    margin-top: 100px;
+    margin-bottom: 25px;
+    
+    display:block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+   
+   
+}
+.btn{
+   
+    width: 130px;
+    height: 35px;
+    margin-top: 29px;
+    border:.1px solid #B621FE;
+    background-color: #ffffff;
+    border-radius: 18px;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
+    box-shadow: 10px 10px 10px #B621FE;
+           
+}
+
+.btn:hover{
+    transition: .1s;
+    width: 145px;
+    height: 40px;
+}
+.buttflx{
+    display: flex;
+    justify-content: center;
+
+}
+.search-box{
+    box-shadow: 10px 10px 10px #B621FE;
+}
+.sphere{
+    margin-top: 10px;
+        margin-left: 250px;
+        text-align: center;
+        display: block;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        box-shadow:
+          inset 0 0 50px #fff,      /* inner white */
+          inset 20px 0 80px #f0f,   /* inner left magenta short */
+          inset -20px 0 80px #0ff,  /* inner right cyan short */
+          inset 20px 0 300px #f0f,  /* inner left magenta broad */
+          inset -20px 0 300px #0ff, /* inner right cyan broad */
+          0 0 50px #fff,            /* outer white */
+          -10px 0 80px #f0f,        /* outer left magenta */
+          10px 0 80px #0ff;         /* outer right cyan */
+      
+}
+.sphere:hover{
+    width: 400px;
+    height: 400px;
+    transition: .5s;
+}
+.sphere2{
+
+    margin-left: 950px;
+    margin-bottom: 100px;    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow:
+      inset 0 0 50px #fff,      /* inner white */
+      inset 20px 0 80px #f0f,   /* inner left magenta short */
+      inset -20px 0 80px #0ff,  /* inner right cyan short */
+      inset 20px 0 300px #f0f,  /* inner left magenta broad */
+      inset -20px 0 300px #0ff, /* inner right cyan broad */
+      0 0 50px #fff,            /* outer white */
+      -10px 0 80px #f0f,        /* outer left magenta */
+      10px 0 80px #0ff;         /* outer right cyan */
+  
+}
+.intext{
+    
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: dashed;
+    color: #ffffff;
+    
+    text-shadow: 2px 2px 8px #ffffff;
+}
+
